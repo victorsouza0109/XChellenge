@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Urbanist:wght@100;200;400;500&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #a4bbdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 620px;
+  height: 320px;
+  background-color: #fff;
+  display: flex;
+}
+.content h3 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #8c8888;
+  font-family: 'Roboto';
+}
+form {
+  width: 50%;
+  text-align: center;
+}
+.passwordIcon {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  margin: 20px 0px 0px -20px;
+}
+@media (max-width: 500px) {
+  .content {
+    width: 450px;
+    height: 300px;
+  }
+  .content h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .content {
+    width: 300px;
+    height: 300px;
+  }
+  .content h3 {
+    font-size: 14px;
+  }
+} ;

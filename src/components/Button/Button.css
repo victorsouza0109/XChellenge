@@ -1,0 +1,20 @@
+.buttonLogin {
+  width: 200px;
+  background: none;
+  border: solid 1px #cbe6e1;
+  cursor: pointer;
+  color: #b8dbd5;
+  padding: 5px;
+  margin-top: 20px;
+}
+.buttonLogin:hover {
+  border: solid 1px #83c7ba;
+  color: #87ada7;
+}
+@media (max-width: 500px) {
+  .buttonLogin {
+    width: 120px;
+    height: 30px;
+    margin-top: 0px;
+  }
+}

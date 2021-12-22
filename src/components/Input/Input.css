@@ -1,0 +1,31 @@
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.Inputs {
+  width: 250px;
+  background-color: #eeeeee;
+  border: none;
+  border-bottom: solid 1px #000;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  margin: 10px 0px 10px 0px;
+}
+.Inputs:focus {
+  border-bottom: solid 1px #000;
+}
+@media (max-width: 500px) {
+  .Inputs {
+    width: 200px;
+    height: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .Inputs {
+    width: 120px;
+    height: 10px;
+  }
+}

@@ -1,0 +1,24 @@
+.Logo {
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 125px;
+}
+.Logo::before {
+  content: '';
+  width: 10px;
+  height: 100px;
+  color: red;
+}
+@media (max-width: 500px) {
+  .Logo {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .Logo {
+    width: 100px;
+    height: 30px;
+  }
+} ;
